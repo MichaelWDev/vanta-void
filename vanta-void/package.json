@@ -1,0 +1,20 @@
+{
+	"name": "vanta-void",
+	"displayName": "Vanta Void Theme Pack",
+	"description": "A cosmic‑void inspired VS Code theme collection featuring nine color variants and three contrast tiers.",
+	"version": "0.0.4",
+	"publisher": "michaelwdev",
+	"engines": {
+	"vscode": "^1.70.0"
+	},
+	"categories": ["Themes"],
+	"contributes": {
+	"themes": [
+		{
+			"label": "Vanta Void — Singularity",
+			"uiTheme": "vs-dark",
+			"path": "./themes/singularity.json"
+		}
+	]
+	}
+}

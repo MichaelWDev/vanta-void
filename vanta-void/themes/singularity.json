@@ -1,0 +1,215 @@
+{
+  "name": "Vanta Void — Singularity",
+  "type": "dark",
+
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#EEEEEE",
+    "editorCursor.foreground": "#FFFFFF",
+    "editor.lineHighlightBackground": "#222222",
+    "editor.selectionBackground": "#FFFFFF22",
+    "editorIndentGuide.background": "#222222",
+    "editorIndentGuide.activeBackground": "#444444",
+
+    "sideBar.background": "#0A0A0A",
+    "sideBar.foreground": "#EEEEEE",
+    "sideBar.border": "#222222",
+
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#EEEEEE",
+    "activityBar.inactiveForeground": "#777777",
+    "activityBar.border": "#222222",
+
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#EEEEEE",
+    "titleBar.inactiveBackground": "#0A0A0A",
+    "titleBar.inactiveForeground": "#777777",
+    "titleBar.border": "#222222",
+
+    "tab.activeBackground": "#0D0D0D",
+    "tab.activeForeground": "#FFFFFF",
+    "tab.activeBorderTop": "#FFFFFF",
+    "tab.inactiveBackground": "#0A0A0A",
+    "tab.inactiveForeground": "#777777",
+    "tab.border": "#222222",
+
+    "editorGroup.border": "#222222",
+    "editorGroupHeader.tabsBackground": "#0A0A0A",
+
+    "panel.background": "#0D0D0D",
+    "panel.border": "#222222",
+    "panelTitle.activeForeground": "#FFFFFF",
+    "panelTitle.inactiveForeground": "#777777",
+
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#EEEEEE",
+    "statusBar.border": "#222222",
+
+    "list.hoverBackground": "#111111",
+    "list.activeSelectionBackground": "#FFFFFF22",
+    "list.inactiveSelectionBackground": "#111111",
+    "list.focusBackground": "#FFFFFF22",
+    "list.highlightForeground": "#FFFFFF",
+
+    "dropdown.background": "#0D0D0D",
+    "dropdown.border": "#222222",
+    "dropdown.foreground": "#EEEEEE",
+
+    "input.background": "#0D0D0D",
+    "input.border": "#222222",
+    "input.foreground": "#EEEEEE",
+    "input.placeholderForeground": "#777777",
+
+    "button.background": "#111111",
+    "button.hoverBackground": "#222222",
+    "button.foreground": "#EEEEEE",
+
+    "scrollbarSlider.background": "#FFFFFF22",
+    "scrollbarSlider.hoverBackground": "#FFFFFF33",
+    "scrollbarSlider.activeBackground": "#FFFFFF44",
+
+    "badge.background": "#FFFFFF22",
+    "badge.foreground": "#EEEEEE",
+
+    "notificationCenterHeader.background": "#0A0A0A",
+    "notifications.background": "#0D0D0D",
+    "notifications.foreground": "#EEEEEE",
+    "notifications.border": "#222222",
+
+    "menu.background": "#0A0A0A",
+    "menu.foreground": "#EEEEEE",
+    "menu.selectionBackground": "#111111",
+    "menu.selectionForeground": "#FFFFFF",
+    "menu.border": "#222222",
+
+    "breadcrumb.background": "#000000",
+    "breadcrumb.foreground": "#777777",
+    "breadcrumb.focusForeground": "#FFFFFF",
+    "breadcrumb.activeSelectionForeground": "#FFFFFF",
+
+    "terminal.background": "#000000",
+    "terminal.foreground": "#EEEEEE",
+    "terminalCursor.foreground": "#FFFFFF",
+    "terminal.selectionBackground": "#FFFFFF22",
+
+    "minimap.background": "#000000",
+    "minimap.selectionHighlight": "#FFFFFF22",
+    "minimap.findMatchHighlight": "#FFFFFF44"
+  },
+
+  "tokenColors": [
+    {
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "keyword.operator",
+        "storage.type",
+        "storage.modifier",
+        "entity.name.tag",
+        "punctuation.definition.tag",
+        "variable.language.this",
+        "variable.language.super",
+        "meta.import",
+        "keyword.other"
+      ],
+      "settings": { "foreground": "#FFFFFF" }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "entity.name.method",
+        "entity.name.class",
+        "entity.name.type",
+        "support.class",
+        "support.type",
+        "meta.function-call",
+        "meta.class",
+        "meta.interface",
+        "meta.type.annotation"
+      ],
+      "settings": { "foreground": "#EEEEEE" }
+    },
+    {
+      "scope": [
+        "variable",
+        "variable.other.readwrite",
+        "variable.other.property",
+        "variable.parameter",
+        "meta.object-literal.key",
+        "support.variable",
+        "meta.definition.variable"
+      ],
+      "settings": { "foreground": "#CCCCCC" }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.boolean",
+        "constant.language",
+        "constant.character",
+        "constant.other",
+        "support.constant",
+        "variable.other.constant"
+      ],
+      "settings": { "foreground": "#999999" }
+    },
+    {
+      "scope": [
+        "punctuation",
+        "punctuation.separator",
+        "punctuation.accessor",
+        "punctuation.definition",
+        "keyword.operator.arithmetic",
+        "keyword.operator.assignment",
+        "keyword.operator.comparison",
+        "keyword.operator.logical",
+        "meta.brace",
+        "meta.bracket"
+      ],
+      "settings": { "foreground": "#666666" }
+    },
+    {
+      "scope": [
+        "comment",
+        "comment.line",
+        "comment.block",
+        "comment.documentation"
+      ],
+      "settings": { "foreground": "#555555", "fontStyle": "italic" }
+    },
+    {
+      "scope": [
+        "string",
+        "string.quoted",
+        "string.template",
+        "string.interpolated",
+        "string.regexp"
+      ],
+      "settings": { "foreground": "#DDDDDD" }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name",
+        "entity.other.attribute-name.id",
+        "entity.other.attribute-name.class",
+        "support.constant.property-value",
+        "support.type.property-name",
+        "meta.tag",
+        "meta.jsx",
+        "meta.jsx.children",
+        "meta.decorator",
+        "meta.annotation"
+      ],
+      "settings": { "foreground": "#DDDDDD" }
+    },
+    {
+      "scope": [
+        "invalid",
+        "invalid.illegal",
+        "markup.deleted",
+        "markup.error"
+      ],
+      "settings": { "foreground": "#FFFFFF", "fontStyle": "bold" }
+    }
+  ]
+}
